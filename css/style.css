@@ -733,7 +733,7 @@
       margin: 170px -20px 0;
       padding: 50px 16px;
       border: 3px solid #b59f5b;
-      height: 180px;
+      height: auto;
     }
   
     .shop-footer {
@@ -865,6 +865,7 @@
   
     .post {
       display: flex;
+      margin-top: 50px;
     }
   
     .trend-post {
@@ -1016,7 +1017,7 @@
   }
   
   .wrapper {
-    box-sizing: border-box;
+    box-sizing: content-box;
     max-width: 100%;
     margin: auto;
   }
@@ -1138,6 +1139,8 @@
     list-style-type: none;
     padding-left: 0;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .tag-link {
@@ -1385,7 +1388,7 @@
   /* FOOTER  */
   
   .footer {
-    margin-top: 300px;
+    margin-top: 400px;
     text-align: center;
     margin-bottom: 33px;
   }
