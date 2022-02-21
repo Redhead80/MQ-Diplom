@@ -1005,6 +1005,13 @@
     }
   }
   
+  .post-img {
+    display: inline-block;
+    width: 380px;
+    height: 100%;
+    margin-right: 30px;
+  }
+
   /* HEADER */
   
   .header {
