@@ -219,7 +219,7 @@
     }
   
     .header-title {
-      font-size: 26px;
+      font-size: 29px;
       max-width: 280px;
       padding: 37px 0 215px;
     }
@@ -605,7 +605,7 @@
     }
   
     .trend-post-info {
-      padding: 37px 30px;
+      box-sizing: border-box;
     }
   
     .tag-list {
@@ -802,7 +802,7 @@
     }
   
     .header-title {
-      font-size: 45px;
+      font-size: 50px;
       line-height: 75px;
       max-width: 800px;
       padding: 120px 0;
@@ -876,7 +876,7 @@
     .trend-post-info {
       padding: 37px 30px;
     }
-  
+    .trend-post-1,
     .trend-post-2,
     .trend-post-3,
     .trend-post-4 {
@@ -958,7 +958,7 @@
       margin: 170px -20px 0;
       padding: 50px 16px;
       border: 3px solid #b59f5b;
-      height: 180px;
+      height: auto;
     }
   
     .shop-footer {
@@ -1113,6 +1113,7 @@
   
   .trend-post-title-link {
     font-family: "open sans";
+    font-size: 23px;
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
